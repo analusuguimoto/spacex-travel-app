@@ -88,7 +88,7 @@ const Success = () => {
         ←
       </button>
       <div className="flex flex-col items-center justify-center min-h-screen text-white p-6">
-        <h1 className="text-3xl font-bold mb-4 text-center">Reserva Confirmada!</h1>
+        <h1 className="text-3xl font-bold text-center">Reserva Confirmada!</h1>
         <div className="p-6 rounded-lg text-center w-96 w-full max-w-md">
           {flight.links.patch.small && (
             <img

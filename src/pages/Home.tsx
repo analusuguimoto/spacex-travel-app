@@ -96,7 +96,9 @@ const Home = () => {
 
             <label className="block text-white mt-6 mb-1">Idade:</label>
             <input
-              type="number"
+              type="text"
+              inputMode="numeric"
+              pattern="[0-9]*"
               className="w-full p-2 rounded bg-white/20 text-white focus:outline-none focus:ring-2 focus:ring-indigo-400"
               value={age}
               onChange={(e) => setAge(e.target.value)}
