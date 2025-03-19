@@ -13,3 +13,29 @@ Bem-vindo ao Aplicativo de Viagens SpaceX! Este é um aplicativo web que utiliza
 - **Roteamento**: React Router
 - **API**: [SpaceX API](https://docs.spacexdata.com/)
 - **Building**: Vite
+
+## **Começando**
+Siga estes passos para configurar o projeto localmente.
+
+1. Clone o repositório:
+```
+git clone git@github.com:analusuguimoto/spacex-travel-app.git
+```
+
+2. Entre no diretório clonado e instale as dependências:
+
+```
+cd spacex-travel-app
+npm install
+```
+
+3. Rode a aplicação:
+
+```
+npm run dev
+```
+
+4. Abra seu navegador e visite
+```
+http://localhost:5173/
+```
